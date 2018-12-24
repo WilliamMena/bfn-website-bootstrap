@@ -128,3 +128,11 @@
       margin: 0;
     }
   }
+
+
+/* @media (min-width: 992px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+  }
+} */
