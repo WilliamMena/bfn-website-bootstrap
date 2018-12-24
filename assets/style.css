@@ -19,6 +19,13 @@
   z-index: -10;
 }
 
+.navbar, .brief-intro, .three-column, .footer {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+
+
 /* brief intro */
 .brief-intro {
   text-align: center;
