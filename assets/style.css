@@ -88,6 +88,10 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
+  .footer .address {
+    margin-bottom: 60px;
+  }
+
   .footer .contact .contact-form {
     display: grid;
     grid-template-columns: 1fr;
