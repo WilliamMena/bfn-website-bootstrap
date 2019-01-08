@@ -1,10 +1,11 @@
 .navbar {
-  background: #dfe6e9;
+  background: #1696d2;
 }
 
 .navbar-brand {
-  /* color: #456f99; */
+  /* color: #FFFFFF; */
   font-weight: bolder;
+
 }
 
 .image-intro {
@@ -39,6 +40,13 @@
   margin: 120px 0;
 }
 
+
+.three-column .btn {
+  border-color: #81E8D1;
+  border-radius: 3px;
+  border-width: 3px;
+}
+
 .category {
   text-align: center;
 }
@@ -55,11 +63,15 @@
     grid-template-columns: 3fr 1fr 1fr;
     padding-top: 40px;
     padding-bottom: 40px;
-    background: #dfe6e9;
+    background: #f7f7f7;
   }
 
   .footer .links {
     margin-bottom: 60px;
+  }
+
+  .footer h3 {
+    color: 	#5BB6E1;
   }
 
   .footer ul {
@@ -74,7 +86,7 @@
   :focus{outline: none;}
 
   .footer a:link, .footer a:visited {
-    color: #0984e3;
+    color: #525c65;
     text-decoration: none;
     transition: color 0.3s ease;
   }
