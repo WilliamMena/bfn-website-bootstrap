@@ -53,9 +53,12 @@ hr {
   margin: 120px 0;
 }
 
+.three-column img {
+  padding-bottom: 30px;
+}
 
 .three-column .btn {
-  border-color: #81E8D1;
+  border-color: #5BB6E1;
   border-radius: 3px;
   border-width: 3px;
 }
