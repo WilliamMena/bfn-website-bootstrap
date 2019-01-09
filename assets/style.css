@@ -20,9 +20,14 @@
   z-index: -10;
 }
 
-.navbar, .brief-intro, .three-column, .footer {
+.navbar, .brief-intro, .three-column {
   padding-left: 80px;
   padding-right: 80px;
+}
+
+.footer {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
@@ -114,7 +119,12 @@ hr {
     margin-bottom: 60px;
   }
 
-  .footer .contact .contact-form {
+  .footer .contact {
+    text-align: center;
+    padding-left: 20px; 
+  }
+
+  /* .footer .contact .contact-form {
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 20px;
@@ -128,12 +138,12 @@ hr {
     border-radius: 4px;
     border: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
+  } */
 
 
   @media (max-width: 991.98px) {
 
-    .navbar {
+    .navbar, .brief-intro, .three-column {
       padding-left: 20px;
       padding-right: 20px;
     }
