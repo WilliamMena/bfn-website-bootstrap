@@ -5,7 +5,6 @@
 .navbar-brand {
   /* color: #FFFFFF; */
   font-weight: bolder;
-
 }
 
 .image-intro {
@@ -127,21 +126,40 @@ hr {
     padding-left: 20px;
   }
 
-  /* .footer .contact .contact-form {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 20px;
-    padding: 0 20px 0 20px;
-  }
 
-  .footer .contact input {
-    height: 2em;
-    padding-left: 10px;
-    background: #fff;
-    border-radius: 4px;
-    border: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  } */
+
+/* ################################################
+          ABOUT_US PAGE
+################################################ */
+
+.main {
+  padding: 80px;
+}
+
+.company-info {
+  margin-bottom: 60px;
+}
+
+.company-info h2, .company-info p  {
+  text-align: center;
+}
+
+.zulay img, .rocio img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   @media (max-width: 991.98px) {
