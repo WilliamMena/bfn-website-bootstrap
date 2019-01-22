@@ -148,7 +148,12 @@ hr {
   margin-bottom: 60px;
 }
 
-.zulay img, .rocio img {
+.zulay img{
+  object-fit: cover;
+  object-position: 0% 50%;
+}
+
+.rocio img {
   object-fit: cover;
   object-position: 50% 50%;
 }
