@@ -144,9 +144,9 @@ hr {
   text-align: center;
 }
 
-/* .info-block {
-  margin: 30px 40px;
-} */
+.info-block {
+  margin-bottom: 60px;
+}
 
 .member {
   margin-bottom: 60px;
