@@ -144,6 +144,10 @@ hr {
   text-align: center;
 }
 
+.member {
+  margin-bottom: 60px;
+}
+
 .zulay img, .rocio img {
   object-fit: cover;
   object-position: 50% 50%;
