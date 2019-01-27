@@ -1,0 +1,238 @@
+.navbar {
+  background: #1696d2;
+}
+
+.navbar-brand {
+  /* color: #FFFFFF; */
+  font-weight: bolder;
+}
+
+.image-intro {
+  max-height: 400px;
+  overflow: hidden;
+  display: grid;
+}
+
+.image-intro > img {
+  max-width: 100%;
+  margin-top: -14%;
+  z-index: -10;
+}
+
+.navbar, .brief-intro, .three-column {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+/* brief intro */
+.brief-intro {
+  text-align: center;
+  background: #1696d2;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 2px solid #dfe6e9;
+}
+
+hr {
+  /* max-width: 20%;
+  min-width: 15%; */
+  width: 15%;
+  border-width: 6px;
+  background-color: #1696d2;
+}
+
+.brief-intro > hr {
+  background-color: #ffd49f;
+}
+
+.three-column {
+  margin: 120px 0;
+}
+
+.three-column h2 {
+  color: #ff9b1f;
+}
+
+.three-column img {
+  padding-bottom: 30px;
+}
+
+.three-column .btn {
+  border-color: #ffd49f;
+  border-radius: 3px;
+  border-width: 3px;
+}
+
+.category {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.category img {
+  width: 100px;
+}
+
+
+
+/* footer */
+  .footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #1696d2;
+    border-top: 2px solid #dfe6e9;
+    color: rgba(255,255,255,0.7);
+  }
+
+  .footer .links {
+    margin-bottom: 60px;
+  }
+
+  .footer h3 {
+    color: 	#ffd49f;
+  }
+
+  .footer ul {
+    list-style-type: none;
+  }
+
+  .footer li {
+    padding-bottom: 8px;
+
+  }
+
+  :focus{outline: none;}
+
+  .footer a:link, .footer a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .footer a:hover {
+    color: #e36809;
+  }
+
+  .footer .links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer .address {
+    margin-bottom: 60px;
+  }
+
+  .footer .contact {
+    text-align: center;
+    padding-left: 20px;
+  }
+
+
+
+/* ################################################
+          ABOUT_US PAGE
+################################################ */
+
+.main {
+  padding: 80px;
+}
+
+.company-info {
+  margin-bottom: 60px;
+}
+
+.company-info h2, .company-info p, .team > h1  {
+  text-align: center;
+}
+
+.info-block {
+  margin-bottom: 60px;
+}
+
+.member {
+  margin-bottom: 60px;
+}
+
+.zulay img{
+  object-fit: cover;
+  object-position: 0% 50%;
+}
+
+.rocio img {
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.card-title {
+  color: #1696d2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 991.98px) {
+
+    .navbar, .brief-intro, .three-column {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .footer {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .footer {
+      text-align: center;
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .footer ul {
+      padding-left: 20px;
+    }
+
+    .footer li {
+      padding: 0;
+      margin: 0;
+    }
+
+
+
+
+
+    /* ################################################
+              ABOUT_US PAGE - MOBILE
+    ################################################ */
+
+    .main {
+      padding: 20px;
+    }
+  }
+
+
+/* @media (min-width: 992px) {
+  .navbar {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+  }
+} */
