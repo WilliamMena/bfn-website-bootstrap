@@ -65,7 +65,10 @@ hr {
 }
 
 .three-column {
-  margin: 120px 0;
+  /* margin: 120px 0; */
+  background-color: #f1f1f1;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .three-column h2 {
