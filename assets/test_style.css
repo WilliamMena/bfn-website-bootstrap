@@ -48,6 +48,10 @@
   border-bottom: 2px solid #dfe6e9;
 }
 
+.brief-intro b {
+  font-weight: bolder;
+}
+
 hr {
   /* max-width: 20%;
   min-width: 15%; */
