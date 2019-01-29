@@ -11,6 +11,17 @@
   top: -20px;
 }
 
+.navbar-brand-name {
+  /* font-family: 'Lobster', cursive; */
+  font-family: cursive;
+  color: #FFFFFF;
+  font-weight: bolder;
+  left: 50%;
+  position: absolute;
+  transform: translatex(-50%);
+  font-size: 1.6rem;
+}
+
 .nav-link {
   font-size: 1.2em;
 }
@@ -222,8 +233,7 @@ ul.list {
     }
 
     .navbar-brand {
-      /* color: #FFFFFF; */
-      /* font-weight: bolder; */
+
       width: 190px;
       position: absolute;
       z-index: 1;
