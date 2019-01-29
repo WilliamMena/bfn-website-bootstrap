@@ -4,7 +4,15 @@
 
 .navbar-brand {
   /* color: #FFFFFF; */
-  font-weight: bolder;
+  /* font-weight: bolder; */
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  top: -20px;
+}
+
+.nav-link {
+  font-size: 1.2em;
 }
 
 .image-intro {
@@ -204,6 +212,15 @@ ul.list {
     .navbar, .brief-intro, .three-column {
       padding-left: 20px;
       padding-right: 20px;
+    }
+
+    .navbar-brand {
+      /* color: #FFFFFF; */
+      /* font-weight: bolder; */
+      width: 150px;
+      position: absolute;
+      z-index: 1;
+      top: -10px;
     }
 
     .footer {
