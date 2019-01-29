@@ -158,6 +158,18 @@ hr {
   margin-bottom: 60px;
 }
 
+.info-block .list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 20px;
+}
+
+ul.list {
+  list-style-type: none;
+  padding: 0;
+}
+
 .member {
   margin-bottom: 60px;
 }
@@ -226,6 +238,11 @@ hr {
 
     .main {
       padding: 20px;
+    }
+
+    .info-block .list {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
     }
   }
 
