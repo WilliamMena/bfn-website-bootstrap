@@ -109,7 +109,7 @@ hr {
 /* footer */
   .footer {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     padding-top: 40px;
     padding-bottom: 40px;
     background: #1696d2;
@@ -148,7 +148,7 @@ hr {
 
   .footer .links {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .footer .address {
