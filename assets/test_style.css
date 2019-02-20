@@ -232,11 +232,16 @@ ul.list {
     }
 
     .navbar-brand {
-
-      width: 190px;
+      margin-left: -34px;
+      /* width: 190px; */
+      width: 130px;
       position: absolute;
       z-index: 1;
       top: -10px;
+    }
+
+    .navbar-brand-name {
+      font-size: 1.3rem;
     }
 
     .footer {
