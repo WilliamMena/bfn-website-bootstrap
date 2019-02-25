@@ -107,6 +107,17 @@ hr {
 
 /* assistance */
   .assistance {
+    padding: 100px 40px;
+  }
+
+  .assistance h3 {
+    padding-top: 30px;
+  }
+  .assistance .address {
+    padding-top: 10px;
+  }
+
+  .linkages {
     padding: 200px 40px;
   }
 
