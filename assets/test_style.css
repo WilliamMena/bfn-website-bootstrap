@@ -240,7 +240,8 @@ ul.list {
 
 
 
-  @media (max-width: 991.98px) {
+  /* @media (max-width: 991.98px) { */
+  @media (max-width: 860px) {
 
     .navbar, .brief-intro, .three-column {
       padding-left: 20px;
@@ -311,8 +312,9 @@ ul.list {
 
 
 
-
-
+/* ################################################
+          CAROUSEL - WEB & MOBILE
+################################################ */
 
 * { box-sizing: border-box; }
 
