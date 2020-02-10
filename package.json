@@ -1,0 +1,24 @@
+{
+  "name": "bfn-website",
+  "version": "1.0.0",
+  "description": "Main websit for the BFN organization.",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "flickity": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamMena/bfn-website-bootstrap.git"
+  },
+  "author": "William Mena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WilliamMena/bfn-website-bootstrap/issues"
+  },
+  "homepage": "https://github.com/WilliamMena/bfn-website-bootstrap#readme"
+}
