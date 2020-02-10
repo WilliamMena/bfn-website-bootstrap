@@ -240,7 +240,7 @@ ul.list {
 
 
 
-  @media (max-width: 991.98px) {
+  @media only screen and (max-width: 991.98px) {
   /* @media (max-width: 860px) { */
 
     .navbar, .brief-intro, .three-column {
@@ -335,7 +335,7 @@ body { font-family: sans-serif; }
   height: 200px;
 }
 
-@media screen and ( min-width: 768px ) {
+@media only screen and ( min-width: 768px ) {
   .carousel-cell img {
     height: 400px;
   }

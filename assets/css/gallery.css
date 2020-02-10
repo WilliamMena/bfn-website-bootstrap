@@ -6,6 +6,10 @@
     margin-top: 35px;
 }
 
+.gallery h2 {
+    text-align: center;
+}
+
 #lightgallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
