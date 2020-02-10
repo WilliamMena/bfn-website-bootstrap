@@ -316,6 +316,7 @@ ul.list {
           CAROUSEL - WEB & MOBILE
 ################################################ */
 
+
 * { box-sizing: border-box; }
 
 body { font-family: sans-serif; }
@@ -339,3 +340,9 @@ body { font-family: sans-serif; }
     height: 400px;
   }
 }
+
+/* END REQUIRED FOR CAROUSEL */
+
+/* .main {
+  padding-top: 70px;
+} */
