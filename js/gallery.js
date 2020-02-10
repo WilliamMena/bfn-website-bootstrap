@@ -18,14 +18,3 @@ flkty.on( 'scroll', function() {
     img.style[ transformProp ] = 'translateX(' + x  + 'px)';
   });
 });
-
-
-require(['./lightgallery.js'], function() {
-  require(["./lg-zoom.js", "./lg-thumbnail.js"], function(){
-      $("#lightgallery").lightGallery(); 
-  });
-});
-
-$("#lightgallery").lightGallery({
-  selector: '.item'
-}); 
