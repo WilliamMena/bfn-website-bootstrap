@@ -1,3 +1,4 @@
+
 var carousel = document.querySelector('.carousel');
 var flkty = new Flickity( carousel, {
   imagesLoaded: true,
@@ -18,3 +19,13 @@ flkty.on( 'scroll', function() {
   });
 });
 
+
+require(['./lightgallery.js'], function() {
+  require(["./lg-zoom.js", "./lg-thumbnail.js"], function(){
+      $("#lightgallery").lightGallery(); 
+  });
+});
+
+$("#lightgallery").lightGallery({
+  selector: '.item'
+}); 

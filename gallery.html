@@ -16,6 +16,11 @@
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <!-- <link rel="stylesheet" href="./node_modules/flickity/dist/flickity.min.css" media="screen"> -->
 
+  <!-- Light Gallery -->
+  <link type="text/css" rel="stylesheet" href="./node_modules/lightgallery/dist/css/lightgallery.css" /> 
+  <link type="text/css" rel="stylesheet" href="./assets/css/gallery.css" /> 
+
+
   <title>Bronx Family Network</title>
 </head>
 <body>
@@ -127,6 +132,32 @@
         </div>
     </div>
 
+    <div class="gallery">
+
+      <div id="lightgallery">
+        
+        <a class="item" href="https://drive.google.com/uc?id=1LYyP5HLLSKx3IxZzTmZLiywbJ-lRnLt0">
+          <img src="./assets/gallery/thumbnail/048a8011-7f31-4d82-b0eb-65b3df46c114-thumbnail.jpg" />
+        </a>
+        <a class="item" href="https://drive.google.com/uc?id=1TK3TggHsamF3SIh8OAPFWD6PWs8rOhpY">
+          <img src="./assets/gallery/thumbnail/194b3400-fc87-44ce-a102-22ccaba50a73-thumbnail.jpg" />
+        </a>
+        <a class="item" href="https://drive.google.com/uc?id=1l8mRd4iotom3JQdrkSW8qmUss611dPU9">
+          <img src="./assets/gallery/thumbnail/39545154-d35a-4483-8aef-02b542ceee97-thumbnail.jpg" />
+        </a>
+        <a class="item" href="https://drive.google.com/uc?id=1LYyP5HLLSKx3IxZzTmZLiywbJ-lRnLt0">
+          <img src="./assets/gallery/thumbnail/048a8011-7f31-4d82-b0eb-65b3df46c114-thumbnail.jpg" />
+        </a>
+        <a class="item" href="https://drive.google.com/uc?id=1TK3TggHsamF3SIh8OAPFWD6PWs8rOhpY">
+          <img src="./assets/gallery/thumbnail/194b3400-fc87-44ce-a102-22ccaba50a73-thumbnail.jpg" />
+        </a>
+        <!-- <a class="item" href="https://drive.google.com/uc?id=1l8mRd4iotom3JQdrkSW8qmUss611dPU9">
+          <img src="./assets/gallery/thumbnail/39545154-d35a-4483-8aef-02b542ceee97-thumbnail.jpg" />
+        </a> -->
+        
+      </div>
+    </div>
+
 </div>
 
 
@@ -211,6 +242,24 @@
   <!-- <script src="./node_modules/flickity/dist/flickity.pkgd.min.js"></script> -->
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="./js/gallery.js"></script>
+
+  <!-- LIGHT-GALLERY PLUGINS -->
+
+
+  <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+  <script src="./node_modules/lightgallery/dist/js/lightgallery.min.js"></script>
+
+  <!-- lightgallery plugins -->
+  <script src="./node_modules/lg-thumbnail/dist/lg-thumbnail.min.js"></script>
+  <script src="./node_modules/lg-fullscreen/dist/lg-fullscreen.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $("#lightgallery").lightGallery(); 
+    });
+  </script>
 
 <!-- <script>
     baguetteBox.run('.tz-gallery');
